@@ -1,0 +1,20 @@
+.img-primeira{
+   
+    display: o=inline;
+    height:180px;
+    position:relative;
+}
+h1{
+    background-color: aliceblue;
+    color:black
+}
+h2{
+    background-color: yellow;
+    color:green;
+}
+h3{
+    background-color: aqua;
+}
+h4{
+    color: blue;
+}
