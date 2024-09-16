@@ -14,10 +14,10 @@ form.addEventListener('submit', function(e) {
 function validarMensagem(valid, valorA, valorB) {
     const paragrafoElement = document.getElementById('paragrafo');
     if (valid) {
-        paragrafoElement.textContent = `Formulário válido: ${valorB} é maior que ${valorA}.`;
+        paragrafoElement.innerHtml = `Formulário válido: ${valorB} é maior que ${valorA}.`;
         paragrafoElement.className = 'paragrafo sucess';
     } else {
-        paragrafoElement.textContent = `Formulário inválido: ${valorB} deve ser maior que ${valorA}.`;
+        paragrafoElement.innerHtml = `Formulário inválido: O valor ${valorB} é menor que ${valorA}.`;
         paragrafoElement.className = 'paragrafo error';
     }
     paragrafoElement.style.display = 'block';
